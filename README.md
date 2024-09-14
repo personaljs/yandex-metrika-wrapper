@@ -1,5 +1,8 @@
 # yandex-metrika-wrapper
 
+[![NPM](https://nodei.co/npm/yandex-metrika-wrapper.png)](https://npmjs.org/package/yandex-metrika-wrapper)
+
+
 `yandex-metrika-wrapper` is a TypeScript wrapper for the [Yandex Metrika API](https://yandex.ru/support/metrica/), providing a strongly-typed and easy-to-use interface for tracking user interactions and sending data to Yandex Metrika.
 
 ## Features
