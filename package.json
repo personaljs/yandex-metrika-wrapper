@@ -1,0 +1,17 @@
+{
+  "name": "yandex-metrika-wrapper",
+  "version": "1.0.0",
+  "description": "A TypeScript wrapper for Yandex Metrika",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["yandex", "metrika", "analytics", "typescript"],
+  "author": "Dolgov Ivan ",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
