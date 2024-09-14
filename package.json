@@ -8,8 +8,9 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
+  "files": ["dist", "LICENSE", "README.md", "package.json"],
   "keywords": ["yandex", "metrika", "analytics", "typescript"],
-  "author": "Dolgov Ivan ",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.0.0"

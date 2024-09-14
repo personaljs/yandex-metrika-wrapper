@@ -29,7 +29,7 @@ export class YandexMetrikaService<G extends string, P extends GoalParams> {
         metrikaScript.type = 'text/javascript';
         metrikaScript.src = alternativeUrl ?? 'https://mc.yandex.ru/metrika/tag.js';
         metrikaScript.async = true;
-        lastScript.parentNode!.insertBefore(metrikaScript, lastScript);
+        lastScript?.parentNode?.insertBefore(metrikaScript, lastScript);
     }
 
     /**
